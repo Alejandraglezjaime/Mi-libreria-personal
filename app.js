@@ -12,21 +12,32 @@ var listaPeliculas = ['https://m.media-amazon.com/images/I/81DP6N-3vTL._AC_UF100
 
 //Desafío 2: agregue elementos a la lista usando .push
 
-listaPeliculas.push('https://ricardorodrigo.info/wp-content/uploads/2023/01/Las-1001-noches-221x300.jpg', 'https://pm1.aminoapps.com/7688/1f257c7d7eadb66b41960042444d94862a930576r1-264-324v2_hq.jpg','https://i.pinimg.com/236x/cd/5b/9e/cd5b9e55f271c0d393be1c36cae56840.jpg','https://www.planetadelibros.com.mx/usuaris/libros/fotos/292/m_libros/portada_villanos-pobre-alma-en-desgracia_disney_201902230028.jpg','https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5RnPnpnS4Dob89FxdjbYEjI8WknaD77l2Utd3rcFe3VTDmeOi833GYcIhWe2UNdB8C9sE5rweVbT03RrvxX4GCS4rN89ZNJOFqo5cFVHxsIg-vpbTopv-DV6Pb05Gga9lS72gTdgSqi9T/s1600/OddSisters.jpg','https://infoliteraria.com/wp-content/uploads/2019/12/evil-thing-cruella-postada-794x1024.jpg','https://m.media-amazon.com/images/I/418IfpI4MtL.jpg','https://m.media-amazon.com/images/I/91dmupdIdIL._AC_UF1000,1000_QL80_.jpg','https://m.media-amazon.com/images/I/91myqIN9RzL._AC_UF1000,1000_QL80_.jpg','https://m.media-amazon.com/images/I/91wOGC8cHRL._AC_UF1000,1000_QL80_.jpg');
+listaPeliculas.push('https://ricardorodrigo.info/wp-content/uploads/2023/01/Las-1001-noches-221x300.jpg', 
+'https://pm1.aminoapps.com/7688/1f257c7d7eadb66b41960042444d94862a930576r1-264-324v2_hq.jpg',
+'https://i.pinimg.com/236x/cd/5b/9e/cd5b9e55f271c0d393be1c36cae56840.jpg',
+'https://www.planetadelibros.com.mx/usuaris/libros/fotos/292/m_libros/portada_villanos-pobre-alma-en-desgracia_disney_201902230028.jpg',
+'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5RnPnpnS4Dob89FxdjbYEjI8WknaD77l2Utd3rcFe3VTDmeOi833GYcIhWe2UNdB8C9sE5rweVbT03RrvxX4GCS4rN89ZNJOFqo5cFVHxsIg-vpbTopv-DV6Pb05Gga9lS72gTdgSqi9T/s1600/OddSisters.jpg',
+'https://infoliteraria.com/wp-content/uploads/2019/12/evil-thing-cruella-postada-794x1024.jpg','https://m.media-amazon.com/images/I/418IfpI4MtL.jpg',
+'https://m.media-amazon.com/images/I/91dmupdIdIL._AC_UF1000,1000_QL80_.jpg',
+'https://m.media-amazon.com/images/I/91myqIN9RzL._AC_UF1000,1000_QL80_.jpg',
+'https://m.media-amazon.com/images/I/91wOGC8cHRL._AC_UF1000,1000_QL80_.jpg',
+'https://m.media-amazon.com/images/I/61xr3i1qPbL._AC_UF1000,1000_QL80_DpWeblab_.jpg', 
+'https://m.media-amazon.com/images/I/61e73JpsrhL._AC_UF1000,1000_QL80_.jpg',
+'https://m.media-amazon.com/images/I/81Ifx1nVHCL._AC_UF1000,1000_QL80_.jpg');
 
-var nombrePeliculas = ['Cartas de amor a los muertos', 'Orgullo y prejuicio', 'Buscando a Alaska', 'Si no despierto', 'La chica del tren', 'Saga completa de Maze runner', 'Dracula', 'A dos metros de ti', 'La mecánica del corazón', 'Metamorfosis', '¿Quién se ha llevado mi queso?', 'Las mil y una noches','La bestia','La emperatriz del mal','Pobre alma en desgracia','Las hermanas perversas','Todo un espanto','Nunca nunca','Asesino de brujas - La bruja blanca','Asesino de brujas - Los hijos del rey','Asesino de brujas - Dioses y moustros'];
+var nombrePeliculas = ['Cartas de amor a los muertos', 'Orgullo y prejuicio', 'Buscando a Alaska', 'Si no despierto', 'La chica del tren', 'Saga completa de Maze runner', 'Dracula', 'A dos metros de ti', 'La mecánica del corazón', 'Metamorfosis', '¿Quién se ha llevado mi queso?', 'Las mil y una noches','La bestia','La emperatriz del mal','Pobre alma en desgracia','Las hermanas perversas','Todo un espanto','Nunca nunca','Asesino de brujas - La bruja blanca','Asesino de brujas - Los hijos del rey','Asesino de brujas - Dioses y moustros','El palacio de los cranks', 'The maze cutter - Un nuevo comienzo','Complejo de dioses'];
 
-var calificacion = ['★★★★★', '★★☆☆☆', '★★★☆☆', '★★★★★', '★★★★★', '★★★★★', '★★★★★', '★★★★☆', '★★★☆☆', '★★★★★', '★★★★☆', '★★★☆☆','★★★★☆','☆☆☆☆☆','★★☆☆☆','☆☆☆☆☆','★★★★★','★★★★☆','☆☆☆☆☆','☆☆☆☆☆','☆☆☆☆☆'];
+var calificacion = ['★★★★★', '★★☆☆☆', '★★★☆☆', '★★★★★', '★★★★★', '★★★★★', '★★★★★', '★★★★☆', '★★★☆☆', '★★★★★', '★★★★☆', '★★★☆☆','★★★★☆','★★★★★','★★☆☆☆','☆☆☆☆☆','★★★★★','★★★★☆','☆☆☆☆☆','☆☆☆☆☆','☆☆☆☆☆','☆☆☆☆☆','☆☆☆☆☆','☆☆☆☆☆'];
 
 document.write('<div class="container_todosFilmes">')
 
 var before = 'Autor: '
 
-var autor = ['Ava Dellaira','Jane Austen','John Green', 'Lauren Oliver', 'Paula Hawkins', 'James Dashner', 'Bram Stoker', 'Rachael Lippincott', 'Mathias Malzieu', 'Franz Kafka', 'Spencer Johnson', 'Historias maravillosas','Serena Valentino','Serena Valentino','Serena Valentino','Serena Valentino','Serena Valentino','Shelby Mahurin','Shelby Mahurin','Shelby Mahurin']
+var autor = ['Ava Dellaira','Jane Austen','John Green', 'Lauren Oliver', 'Paula Hawkins', 'James Dashner', 'Bram Stoker', 'Rachael Lippincott', 'Mathias Malzieu', 'Franz Kafka', 'Spencer Johnson', 'Historias maravillosas','Serena Valentino','Serena Valentino','Serena Valentino','Serena Valentino','Serena Valentino','Shelby Mahurin','Shelby Mahurin','Shelby Mahurin', 'Shelby Mahurin', 'James Dashner', 'James Dashner', 'James Dashner']
 
 //Desafío 1 - Convertir for en while
 var i = 0;
-while(i < listaPeliculas.length){
+while(i < listaPeliculas.length){ 
     if((listaPeliculas[i].endsWith('jpg')) || (listaPeliculas[i].endsWith('jpeg'))){
         document.write('<div class="container_filme">')
         document.write('<img src='+ listaPeliculas[i] +'>');
