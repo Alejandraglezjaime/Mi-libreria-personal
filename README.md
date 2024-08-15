@@ -6,7 +6,7 @@ Esta página web ha sido creada con fines personales y presenta una colección d
 
 La página aún está en desarrollo y se encuentran pendientes las siguientes mejoras:
 
-- [ ] Añadir una funcionalidad de interacción para que, al seleccionar una portada, se abra una ventana de sinopsis con la información detallada del libro, que incluirá la sinopsis, reseña, calificación global y los idiomas en los que está disponible.
+- [ ] Añadir una funcionalidad de interacción para que, al seleccionar una portada, se abra una ventana de sinopsis con la información detallada del libro, que incluirá la sinopsis, reseña, calificación global, los idiomas en los que está disponible y un link donde puedes leerlo digitalmente si así esta disponible.
 - [ ] Incluir una opción en la ventana de sinopsis que permita regresar a la página de la librería.
 - [ ] Hacer la página web responsiva para asegurar una visualización adecuada en diferentes dispositivos.
 
