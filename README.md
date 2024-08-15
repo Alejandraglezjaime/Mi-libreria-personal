@@ -2,7 +2,7 @@
 
 Esta página web ha sido creada con fines personales y presenta una colección de libros. En ella se muestran las portadas de los libros, el título, el autor y la calificación en estrellas que he otorgado. Las portadas son interactivas: al pasar el mouse sobre ellas, la imagen se agranda ligeramente.
 
-¡[Pagina libreria](https://github.com/Alejandraglezjaime/Mi-libreria-personal/blob/master/img/index%20.jpg?raw=true)
+![Pagina libreria](https://github.com/Alejandraglezjaime/Mi-libreria-personal/blob/master/img/index%20.jpg?raw=true)
 
 La página aún está en desarrollo y se encuentran pendientes las siguientes mejoras:
 
